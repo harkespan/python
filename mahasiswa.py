@@ -15,22 +15,21 @@ def update_mhs(mahasiswa):
     #fungsi ini digunakan untuk melakukan update data mahasiswa
     print("---- fungsi update mahasiswa dijalankan----")
 
-def delete_mhs(mahasiswa):
-    #fungsi ini digunakan untuk delete data mahasiswa
-    print("-----fungsi delete mahasiswa dijalankan-----")
-
-
 def input_nilai(nilai):
     #fungsi untuk input nilai
     print("----fungsi input nilai mahasiswa dijalankan----")
     
-def edit_nilai():
+def update_nilai():
     #fungsi ini digunakan untuk mengedit nilai mahasiswa berdasarkan nim yang dimasukkan
     print("-----fungsi edit nilai mahasiswa dijalankan-----")
 
 def tampil_nilai_mahasiswa():
     #fungsi ini digunakan untuk menampilkan data nilai semua mahasiswa
     print("------fungsi tampil nilai mahasiswa dijalankan----")
+
+def delete_nilai_mahasiswa():
+     #fungsi ini digunakan untuk menghapus data nilai semua mahasiswa
+    print("------fungsi hapus nilai mahasiswa dijalankan----")
 
 def insert_krs():
     #fungsi ini digunakan untuk menambah data krs mahasiswa
@@ -55,12 +54,16 @@ if __name__ == "__main__":
     }
 
     nilai = {
-        0 : {'A11.2000.00001':80},
+        0 : {'nim':'A11.2000.00001','nilai':80},
     }
 
     krs = {
-        0 : {'A11.2000.00001':'Daspro','sks':3},
-        1 : {'A11.2000.00001':'Pancasila','sks':2},
+        0 : {'nim':'A11.2000.00001','matkul':'Daspro','sks':3},
+        1 : {'nim':'A11.2000.00001','matkul':'Pancasila','sks':2},
+    }
+
+    sks_krs = {
+        0 : {'nim':'A11.2000.00001','total':5},
     }
 
     
