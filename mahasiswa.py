@@ -44,6 +44,10 @@ def show_krs():
     #fungsi ini digunakan untuk menampilkan data krs mahasiswa
     print("------fungsi show krs dijalankan---------")
 
+def delete_krs():
+     #fungsi ini digunakan untuk menghapus data krs mahasiswa
+    print("------fungsi delete krs dijalankan---------")
+
 if __name__ == "__main__":
     mahasiswa = {
         0 : {'nim':'A11.2000.00001','nama':'John Doe','alamat':'Jalan Nakula I 5-11 Semarang'},
